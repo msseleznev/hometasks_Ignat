@@ -1,0 +1,30 @@
+
+
+.block {
+    box-sising: border-box;
+    background-color: rgba(201, 243, 148, 0.71);
+    width: 300px;
+    height: auto;
+    border-bottom: 2px solid blue;
+    padding-left: 25px;
+}
+
+.block:before {
+    display: block;
+    background-color: rgba(24, 22, 22, 0.83);
+    content: '';
+    height: 100px;
+    width: 100%;
+    border-radius: 10px 10px 10px 0;
+}
+
+.block:after {
+    display: block;
+    background-color: rgba(24, 22, 22, 0.83);
+    content: '';
+    width: 25px;
+    height: 25px;
+    margin-left: -25px;
+    margin-top: -25px;
+    border-radius: 0 0 50px 0;
+}
