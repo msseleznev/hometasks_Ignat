@@ -1,18 +1,27 @@
 import React from 'react'
-import HW1 from '../../h1/HW1'
-import HW2 from '../../h2/HW2'
-import HW3 from '../../h3/HW3'
-import HW4 from '../../h4/HW4'
+import s from "./Error404.module.css";
+import {NavLink} from "react-router-dom";
+import {PATH} from "../Routes";
+import {setClassName} from "../Header";
+import cat from "./cat.png";
 
-function Junior() {
+
+function JuniorPlus() {
     return (
-        <div>
-
+        <div className={s.box}>
+            <div>
+                <div className={s.child_box2}>Упс! Рановато =)</div>
+                <div className={s.child_box3}>Страница JuniorPlus скоро будет доступна.</div>
+                <div className={s.child_box2}>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+                <NavLink to={PATH.PRE_JUNIOR} className={setClassName}>Нажмите для возврата к странице
+                    Pre-junior</NavLink>
+            </div>
+            <img src={cat}/>
         </div>
     )
 }
 
-export default Junior
+export default JuniorPlus
 
 // сделайте по аналогии пустые страницы джун и джун+
 // туда будут добавляться следующие дз

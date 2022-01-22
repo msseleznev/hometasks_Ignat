@@ -1,23 +1,20 @@
 import React from 'react'
-import HW1 from '../../h1/HW1'
-import HW2 from '../../h2/HW2'
-import HW3 from '../../h3/HW3'
-import HW4 from '../../h4/HW4'
+import s from "./Error404.module.css";
+import {NavLink} from "react-router-dom";
+import {PATH} from "../Routes";
+import {setClassName} from "../Header";
+import cat from "./cat.png";
+import HW7 from "../../h7/HW7";
 
-function PreJunior() {
+function Junior() {
     return (
-        <div>
-            <HW1/>
-            <HW2/>
-            <HW3/>
-            <HW4/>
-            {/*<HW6/>*/}
-
+        <div >
+            <HW7/>
         </div>
     )
 }
 
-export default PreJunior
+export default Junior
 
 // сделайте по аналогии пустые страницы джун и джун+
 // туда будут добавляться следующие дз

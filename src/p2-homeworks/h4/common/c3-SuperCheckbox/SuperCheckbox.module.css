@@ -17,13 +17,13 @@
     margin-right: 10px;
 
 }
+
 .checkbox:hover {
     background-color: rgba(255, 255, 255, 0.59);
 }
+
 .checkbox:checked {
     background-image: url("done.png");
-
-
 }
 
 
