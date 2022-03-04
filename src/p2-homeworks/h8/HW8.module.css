@@ -1,0 +1,12 @@
+.users {
+    display: flex;
+    width: 200px;
+    margin-left: 10px;
+    color: #e1dede;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usersBox {
+    height: 140px;
+}

@@ -22,8 +22,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     ${s.default}  
     ${red ? s.red : s.default} 
     ${green ? s.green : s.default} 
-    ${orange ? s.orange : s.default} 
-    
+    ${orange ? s.orange : s.default}     
     ${className}`
 
     return (

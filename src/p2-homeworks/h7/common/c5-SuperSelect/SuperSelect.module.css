@@ -1,0 +1,52 @@
+
+
+
+.select {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    outline: none;
+    width: 100px;
+    font-size: 1rem;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+
+
+
+    /*width: 100px;
+    height: 20px;
+    border: none;
+    position: relative;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+
+    text-align: center;
+    background-color: rgba(220, 214, 214, 0.37);*/
+
+
+
+/*
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    outline: none;
+    padding: 5px;
+    padding-right: 40px;
+
+
+}
+select:after{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url("/put_k_strelke");
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}*/
