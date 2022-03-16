@@ -7,6 +7,7 @@ import cat from './cat.png';
 
 
 function Error404() {
+
     return (
         <div className={s.box}>
             <div>

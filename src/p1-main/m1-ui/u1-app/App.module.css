@@ -1,3 +1,17 @@
-.App {
+.dark  {
+    background: rgba(0, 0, 0, 0.74);
+    color: rgba(211, 17, 17, 0.83);
+    min-height:  100vh;
 
+}
+
+.dark  hr {
+    border: none;
+    color: rgba(255, 0, 0, 0.35);
+    background-color: rgba(255, 0, 0, 0.35);
+    height: 2px; /* Толщина линии */
+}
+
+.default{
+    color: rgb(211, 211, 211);
 }

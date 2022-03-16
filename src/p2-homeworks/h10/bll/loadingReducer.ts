@@ -14,12 +14,10 @@ export const loadingReducer = (state: initStateType = initState, action: ToggleP
     }
 }
 
-
 export const loadingAC = (isLoading: boolean): TogglePreloaderType => {
     return {
         type: ACTIONS_TYPE.TOGGLE_PRELOADER,
         isLoading
-
     }
 } // fix any
 
