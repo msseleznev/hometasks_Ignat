@@ -4,6 +4,7 @@ import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 import s from './common/c7-SuperRange/SuperRange.module.css'
 
 
+
 function HW11() {
 
 
@@ -47,6 +48,10 @@ function HW11() {
                                   max={100}
                                   min={0}
                                   onChangeRange={onChangeDoubleRange}/>
+                {/*<Slider getAriaLabel={() => 'Temperature range'}*/}
+                {/*        value={value1}*/}
+                {/*        valueLabelDisplay="auto"*/}
+                {/*        />*/}
 
             </div>
 

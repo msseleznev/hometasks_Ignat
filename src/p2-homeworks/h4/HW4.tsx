@@ -24,40 +24,30 @@ function HW4() {
             homeworks 4
 
             <div className={s.column}>
-
-                    <SuperInputText
-                        value={text}
-                        onChangeText={setText}
-                        onEnter={showAlert}
-                        error={error}
-                        // spanClassName={s.testSpanError}
-                    />
-
-
-
+                <SuperInputText
+                    value={text}
+                    onChangeText={setText}
+                    onEnter={showAlert}
+                    error={error}
+                    // spanClassName={s.testSpanError}
+                />
                 <SuperInputText
                     className={s.blue} // проверьте, рабоет ли смешивание классов
                 />
-
                 {/*----------------------------------------------------*/}
-
                 <SuperButton>
                     default
                 </SuperButton>
-
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
-
                 <SuperButton disabled>
                     disabled
                 </SuperButton>
-
                 {/*----------------------------------------------------*/}
-
                 <SuperCheckbox
                     checked={checked}
                     onChangeChecked={setChecked}
